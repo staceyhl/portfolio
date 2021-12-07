@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Overpass:wght@900&family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    margin: 0;
+    z-index: 1;
+}
+
+.header {
+    font-size: 30px;
+    font-family: 'cormorant garamond';
+    z-index: 2;
+}
+
+.name {
+    position: fixed;
+    color:black;
+    text-decoration: none;
+}
+
+#stacey {
+    left: 4px;
+    top: 0px;
+}
+
+#lee {
+    right: 4px;
+    top: 0px;
+}
+
+.down {
+    display: inline-block;
+    font-family: 'cormorant garamond';
+    font-size: 1.4vw;
+    margin-left: 45%;
+    margin-top: -27;
+    color: #09E318;
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 20s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.text {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    height: 2030px;
+    margin-top: 1028px;
+
+    text-transform: uppercase;
+    font-family: 'overpass';
+    text-align: center;
+    color:white;
+    text-size-adjust: 80%;
+}
+
+.projects {
+    text-transform: uppercase;
+    font-family: 'roboto condensed';
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    font-size: 43vw;
+    line-height: 0.7;
+}
+
+#proj {
+    letter-spacing: -32.2;
+}
+
+#ects {
+    letter-spacing: -11.5;
+}
+
+.projects:hover {
+    animation-name: color-change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-change {
+    from {
+        color: white;
+    }
+
+    to {
+        color: #09E318;
+    }
+}
+
+.about {
+    font-size: 31vw;
+    letter-spacing: -15;
+
+    text-transform: uppercase;
+    font-family: 'roboto condensed';
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+
+.about:hover {
+    animation-name: color-change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}

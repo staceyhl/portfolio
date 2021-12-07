@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Nanum+Myeongjo&display=swap');
+
+body {
+    font-family: nanum myeongjo;
+    font-size: 36px;
+}
+
+.thin-underline {
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 5px;
+    border: none;
+    border-bottom: 1px #321 solid;
+    margin: 0 auto;
+}
+
+.line1-center {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.line2 {
+    text-align: center;
+    line-height: 10px;
+}
+
+.nobody {
+    font-family: lato;
+    font-size: 42px;
+    margin-top: 700px;
+    margin-left: 55px;
+    text-align: center;
+    letter-spacing: 53px;
+}
+
+.nobody:hover {
+    color: white;
+}
+
+.so-deep {
+    font-family: lato;
+    font-size: 600px;
+
+}
+
+#so {
+    letter-spacing: 680px;
+    margin-left: 300px;
+}
+
+#deep {
+    animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        color: #DAEEFF
+    }
+
+    80% {
+        color: black;
+    }
+
+    100% {
+        color: #DAEEFF
+    }
+}
+
+.books {
+    transform: skew(-35deg, 15deg);
+    margin-top: 200px;
+    margin-left: 525px;
+}
+
+.music-div {
+    transform: rotate(50deg);
+    margin-top: 400px;
+    margin-left: 1000px;
+}
+
+.music-text {
+    transform: skewX(-55deg);
+}
+
+.art-div {
+    transform: rotate(110deg);
+    margin-top: 800px;
+    margin-left: 1300px;
+}
+
+.art-text {
+    transform: skewX(-70deg);
+}
+
+.help-div {
+    background-color: black;
+    margin-top: 300px;
+    height: 2000px;
+}
+
+.help {
+    color: white;
+    text-align: center;
+    padding-top: 1900px;
+}
+
+.intelligent-div {
+    text-align: center;
+}
+
+.so {
+    font-size: 200px;
+}
+
+.much {
+    font-size: 300px;
+}
+
+.more {
+    font-family: lato;
+    font-size: 600px;
+}
+
+.round {
+    text-align: center;
+    font-family: lato;
+    margin-top: 200px;
+    animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.surround-div {
+    text-align: center;
+    margin-top: 200px;
+}
+
+span:hover {
+    font-family: lato;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.surround {
+    animation: slide 5s infinite;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: -100px;
+    }
+
+    50% {
+        margin-left: 100px;
+    }
+
+    100% {
+        margin-left: -100px;
+    }
+
+}

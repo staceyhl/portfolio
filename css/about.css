@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Overpass:wght@900&family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    margin: 0;
+    z-index: 1;
+}
+
+.bg {
+    height: 40;
+    background-color: white;
+
+    position: fixed;
+    width: 100%;
+}
+
+.header {
+    font-size: 30px;
+    font-family: 'cormorant garamond';
+    z-index: 2;
+}
+
+.name {
+    position: fixed;
+    color:black;
+    text-decoration: none;
+}
+
+#stacey {
+    left: 4px;
+    top: 0px;
+}
+
+#lee {
+    right: 4px;
+    top: 0px;
+}
+
+#project-name {
+    top: -27;
+    margin-left: 49%;
+    position: fixed;
+}
+
+.text {
+    float: right;
+    margin-right: 6.5%;
+    margin-top: 50;
+    width: 37%;
+
+    font-family: 'cormorant garamond';
+    font-size: 1.45vw;
+    text-align: justify;
+}
+
+.insta-container {
+    position: fixed;
+    height: 550;
+    margin-top: 380;
+    width: 51%;
+
+    display: block;
+    line-height: -10;
+
+    z-index: 2;
+}
+
+.email-container {
+    position: fixed;
+    height: 550;
+    margin-top: 400;
+    width: 51%;
+
+    display: block;
+}
+
+.contact-text {
+    font-family: 'roboto condensed';
+    font-size: 12vw;
+    text-transform: uppercase;
+    line-height: 0.8;
+    color: black;
+    text-decoration: none;
+    letter-spacing: -10;
+}
+
+#insta:hover {
+    animation-name: color-change;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-change {
+    from {
+        color: black;
+    }
+
+    to {
+        color: #09E318;
+    }
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Overpass:wght@900&family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    margin: 0;
+    z-index: 1;
+}
+
+.bg {
+    height: 40;
+    background-color: white;
+
+    position: fixed;
+    width: 100%;
+}
+
+.header {
+    font-size: 30px;
+    font-family: 'cormorant garamond';
+    z-index: 2;
+}
+
+.name {
+    position: fixed;
+    color:black;
+    text-decoration: none;
+}
+
+#stacey {
+    left: 4px;
+    top: 0px;
+}
+
+#lee {
+    right: 4px;
+    top: 0px;
+}
+
+#project-name {
+    top: -27;
+    margin-left: 50%;
+    position: fixed;
+}
+
+.the-project {
+    font-family: 'roboto condensed';
+    font-size: 14vw;
+    text-transform: uppercase;
+    line-height: .8;
+    color: black;
+    text-decoration: none;
+    letter-spacing: -10;
+}
+
+.the-project:hover {
+    animation-name: color-change;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-change {
+    from {
+        color: black;
+    }
+
+    to {
+        color: #09E318;
+    }
+}
+
+.the-project-container {
+    bottom: 0;
+    position: fixed;
+    height: 550;
+    margin-bottom: -100;
+    width: 51%;
+
+    background-color: white;
+}
+
+.first {
+    float: left;
+    height: 400;
+    margin-top: 100;
+}
+
+.text {
+    float: right;
+    xmargin-right: 120;
+    margin-right: 6.5%;
+    margin-top: 50;
+    xbackground-color: thistle;
+    xwidth: 810;
+    width: 37%;
+
+    font-family: 'cormorant garamond';
+    font-size: 1.45vw;
+    text-align: justify;
+}
+
+#home {
+    width: 100%;
+    border: solid 20px black; 
+}
+
+#footnote {
+    width: 100%;
+    border: solid 20px black; 
+}
+
+#tictactoe {
+    width: 100%;
+    border: solid 20px black; 
+}
+
+.home-text {
+    font-family: 'cormorant garamond';
+    font-size: 1.2vw;
+    text-align: justify;
+    color: #09E318;
+    opacity: 0;
+
+    margin-top: 150;
+    width: 30%;
+    margin-left: 20%;
+    position: fixed;
+
+    transition: opacity 0.1s;
+}
+
+.footnote-text {
+    font-family: 'cormorant garamond';
+    font-size: 1.2vw;
+    text-align: justify;
+    color: #09E318;
+    opacity: 0;
+
+    margin-top: 150;
+    width: 30%;
+    margin-left: 20%;
+    position: fixed;
+
+    transition: opacity 0.1s;
+}
+
+.tictactoe-text {
+    font-family: 'cormorant garamond';
+    font-size: 1.2vw;
+    text-align: justify;
+    color: #09E318;
+    opacity: 0;
+
+    margin-top: 150;
+    width: 30%;
+    margin-left: 20%;
+    position: fixed;
+
+    transition: opacity 0.1s;
+}
